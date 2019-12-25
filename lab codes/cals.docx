@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int a,b;
+    char c;
+    printf("Enter the value of a :");
+    scanf("%d",&a);
+    printf("Enter the value of b and operator :");
+    scanf("%d \n %c",&b,&c);
+   // printf("Enter the operator %c :\n");
+   // scanf("%c",&c);
+    
+    switch(c)
+    {   float d;
+        case '+':d=a+b;
+            printf("%f",d);break;
+        case '-':d=a-b;
+            printf("%f",d);break; 
+        case '*':d=a*b;
+            printf("%f",d);break; 
+        case '/':d=a/b;
+            printf("%f",d);break; 
+        default :printf("invalid operator");
+        
+    }
+    
+}
